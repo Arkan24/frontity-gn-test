@@ -17,7 +17,7 @@ const Item = ({ state, item }) => {
   return (
     <article>
       <Link link={item.link}>
-        <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
+        <Title className="uk-text-success" dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
       </Link>
 
       <div>
@@ -56,7 +56,7 @@ export default connect(Item);
 
 const Title = styled.h1`
   font-size: 2rem;
-  color: rgba(12, 17, 43);
+
   margin: 0;
   padding-top: 24px;
   padding-bottom: 8px;

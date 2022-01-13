@@ -3,35 +3,36 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Goldnet Resnova",
+      "description": "Internet Service Provider Vicenza"
     }
   },
   "packages": [
+    "@aamodtgroup/frontity-contact-form-7",
     {
       "name": "@frontity/mars-theme",
       "state": {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "Connettività",
+              "/connettivita"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Data Center",
+              "/data-center/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Supporto",
+              "/supporto/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Web Agency",
+              "/web-agency/"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "Prova",
+              "/prova/"
             ]
           ],
           "featured": {
@@ -45,7 +46,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "http://devgrnwp.goldnet.it",
+          "homepage": "/internet-service-provider/"          
         }
       }
     },
